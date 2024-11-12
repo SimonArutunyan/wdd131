@@ -8,11 +8,11 @@ document.addEventListener("DOMContentLoaded", function() {
         const modifiedParagraph = footer.querySelector('p:last-of-type');
 
         if (yearParagraph) {
-            yearParagraph.textContent = `Год публикации: ${currentYear}`;
+            yearParagraph.textContent = `Year of publication: ${currentYear}`;
         }
 
         if (modifiedParagraph) {
-            modifiedParagraph.textContent = `Дата последнего изменения: ${lastModified}`;
+            modifiedParagraph.textContent = `Last modified date: ${lastModified}`;
         }
     }
 });
