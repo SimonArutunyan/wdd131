@@ -1,0 +1,25 @@
+/* temples-large.css */
+
+@media screen and (min-width: 768px) {
+    header {
+        text-align: left;
+    }
+
+    nav {
+        justify-content: flex-start;
+    }
+
+    nav li {
+        margin: 0 20px; /* Adjust margin for larger view */
+    }
+
+    main {
+        max-width: 1200px; /* Increase max width for desktop */
+        margin: 40px auto;
+    }
+
+    /* CSS Grid for figures */
+    main {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Responsive grid */
+    }
+}
