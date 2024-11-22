@@ -22,3 +22,4 @@ document.getElementById('hamburger').addEventListener('click', toggleMenu);
 
 // Run the footer update function when the script loads
 updateFooter();
+

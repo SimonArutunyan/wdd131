@@ -8,7 +8,7 @@ body {
 }
 
 header {
-    background-color: #4CAF50; /* Your color choice */
+    background-color: hsl(128, 93%, 35%); /* Your color choice */
     color: white;
     padding: 20px;
     text-align: center;
@@ -16,7 +16,7 @@ header {
 
 nav {
     display: flex;
-    justify-content: center;
+    justify-content: space-around; 
     margin-top: 10px;
 }
 
@@ -26,7 +26,7 @@ nav ul {
     margin: 0;
 }
 
-nav li {
+nav li { 
     margin: 0 15px;
 }
 
@@ -58,40 +58,6 @@ figure {
 /* CSS Grid for figures */
 main {
     display: grid;
-    grid-template-columns: 1fr; /* Single column for mobile */
+    grid-template-columns: 1fr; /* Single column for mobile 
     gap: 15px;
-}
-
-#hamburger {
-    display: none; /* Hidden by default */
-    background: none;
-    border: none;
-    font-size: 30px;
-    color: white;
-    cursor: pointer;
-}
-
-/* Responsive styles */
-@media screen and (max-width: 767px) {
-    #hamburger {
-        display: block; /* Show the hamburger button on mobile */
-    }
-
-    nav {
-        display: none; /* Hide the navigation by default on mobile */
-        flex-direction: column; /* Stack items vertically */
-        align-items: center; /* Center align */
-    }
-
-    nav.visible {
-        display: flex; /* Show navigation when visible class is added */
-    }
-
-    nav ul {
-        width: 100%; /* Full width for mobile */
-    }
-
-    nav li {
-        margin: 10px 0; /* Adjust margin for vertical spacing */
-    }
-}
+}      /*
