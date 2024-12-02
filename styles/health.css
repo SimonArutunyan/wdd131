@@ -7,7 +7,7 @@ body {
 }
 
 header {
-    background-color: #4caf50; /* Зеленый цвет для заголовка */
+    background-color: #4caf50; /* Green color for the header */
     color: white;
     padding: 20px;
     text-align: center;
@@ -44,4 +44,12 @@ footer {
     position: relative;
     bottom: 0;
     width: 100%;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+    nav li {
+        display: block;
+        margin: 10px 0;
+    }
 }
